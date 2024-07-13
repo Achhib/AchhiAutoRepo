@@ -19,6 +19,7 @@ private static Addition adt1;
 		System.out.println("value is: "+actual);
 		//assertTrue(expected, actual);
 	}
+<<<<<<< HEAD
 
 
 	@Test
@@ -30,4 +31,15 @@ private static Addition adt1;
 		//assertTrue(expected, actual);
 	}
 
+=======
+	@Test
+	public static void addnegative(int a, int b) {
+		System.out.println("AchhiTest.addPositive()");
+		int expected = -50;
+		int actual = adt1.sum(-25, -25);
+		System.out.println("value is: "+actual);
+		//assertTrue(expected, actual);
+	}
+	
+>>>>>>> branch 'master' of https://github.com/Achhib/AchhiAutoRepo.git
 }
