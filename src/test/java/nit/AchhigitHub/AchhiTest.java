@@ -42,6 +42,13 @@ private static Addition adt1;
 		System.out.println("value is: "+actual);
 		assertEquals(expected, actual);
 	}
-	
+	@Test
+	public static void dymmyTest(int a, int b) {
+		System.out.println("AchhiTest.addPositive()");
+		int expected = -50;
+		int actual = adt1.sum(-25, -25);
+		System.out.println("value is: "+actual);
+		assertEquals(expected, actual);
+	}
 
 }
